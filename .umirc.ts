@@ -1,11 +1,13 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'demo',
+  title: 'iweb.wiki',
   favicon:
     'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   logo:
     'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'docs-dist',
+  base: '/iweb-wiki.github.io',
+  // publicPath: '/umi-demo',
   // more config: https://d.umijs.org/config
 });

@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "demo",
+  "name": "iweb",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
